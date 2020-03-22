@@ -31,6 +31,11 @@ You should use Abstract Factory pattern when:
 - **Client**
   - uses only interfaces that are declared in AbstractFactory and AbstractFactory classes;
 
+## Relationship
+
+- Usually during the runtime only class instance of ConcreteFactory is being created. This concrete factory creates product objects. To create other types of objects client must use other concrete factory.
+- AbstractFactory trusts creation of product objects to its ConcreteFactory;
+
 ## Results
 
 The Abstract Factory pattern has its pros:
