@@ -45,4 +45,4 @@ And cons:
 
 ## Our example
 
-In the file (abstract-factory.js)[https://github.com/kirillgenets/js-design-patterns/patterns/creational-patterns/abstract-factory/abstract-factory.js] we are implementing an abstract factory, that will create mobile phones.
+In the file [abstract-factory.js](https://github.com/kirillgenets/js-design-patterns/patterns/creational-patterns/abstract-factory/abstract-factory.js) we are implementing an abstract factory, that will create mobile phones.
