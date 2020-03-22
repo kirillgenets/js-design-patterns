@@ -20,16 +20,16 @@ You should use Abstract Factory pattern when:
 ## Members
 
 - **AbstractFactory**:
-  . declares an interface for operations, that are creating abstract product objects;
+  -- declares an interface for operations, that are creating abstract product objects;
 - **ConcreteFactory**
-  . implements operations, that are creating concrete objects-products;
+  -- implements operations, that are creating concrete objects-products;
 - **AbstractProduct**
-  . declares an interface for a product object type;
+  -- declares an interface for a product object type;
 - **ConcreteProduct**
-  . declares product object created by appropriate concrete factory;
-  . implements the interface of AbstractProduct;
+  -- declares product object created by appropriate concrete factory;
+  -- implements the interface of AbstractProduct;
 - **Client**
-  . uses only interfaces that are declared in AbstractFactory and AbstractFactory classes;
+  -- uses only interfaces that are declared in AbstractFactory and AbstractFactory classes;
 
 ## Results
 
