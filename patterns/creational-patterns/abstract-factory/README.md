@@ -15,7 +15,7 @@ You should use Abstract Factory pattern when:
 
 ## Structure
 
-![Structure](https://web.tecnico.ulisboa.pt/~david.matos/w/pt/images/thumb/a/a6/Abstract-factory-dpcd.png/1050px-Abstract-factory-dpcd.png)
+![Structure of Abstract Factory pattern](https://web.tecnico.ulisboa.pt/~david.matos/w/pt/images/thumb/a/a6/Abstract-factory-dpcd.png/1050px-Abstract-factory-dpcd.png)
 
 ## Members
 
