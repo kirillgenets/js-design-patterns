@@ -19,7 +19,7 @@ You should use Abstract Factory pattern when:
 
 ## Members
 
-- **AbstractFactory**:
+- **AbstractFactory**
   - declares an interface for operations, that are creating abstract product objects;
 - **ConcreteFactory**
   - implements operations, that are creating concrete objects-products;
