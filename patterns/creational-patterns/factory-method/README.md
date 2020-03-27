@@ -41,6 +41,8 @@ The Factory Method has its pros:
 
 And cons:
 
-- the code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
+- the code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best-case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
 
 ## Our example
+
+In the file [factory-method.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/creational-patterns/factory-method/factory-method.js) we are implementing a factory method, that will create logistics company.
