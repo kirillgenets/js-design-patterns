@@ -38,5 +38,5 @@ class SeaLogistics extends Logistics {
 }
 
 // Usage
-new SeaLogistics().createTransport(); // delivering products by ship
-new RoadLogistics().createTransport(); // delivering products by car
+new SeaLogistics().createTransport().deliver(); // delivering products by ship
+new RoadLogistics().createTransport().deliver(); // delivering products by car
