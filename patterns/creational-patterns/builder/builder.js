@@ -18,7 +18,7 @@ class CarBuilder {
 }
 
 // ConcreteBuilder
-class LADACarBuilder {
+class LADACarBuilder extends CarBuilder {
 	constructor() {
 		this.car = new Car();
 	}
@@ -49,7 +49,7 @@ class LADACarBuilder {
 }
 
 // ConcreteBuilder
-class AudiCarBuilder {
+class AudiCarBuilder extends CarBuilder {
 	constructor() {
 		this.car = new Car();
 	}
