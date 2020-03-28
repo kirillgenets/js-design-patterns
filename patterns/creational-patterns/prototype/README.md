@@ -47,3 +47,5 @@ And cons:
 - cloning complex objects that have circular references might be very tricky;
 
 ## Our example
+
+In the file [prototype.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/creational-patterns/prototype/prototype.js) we are implementing the Prototype called "Shape".
