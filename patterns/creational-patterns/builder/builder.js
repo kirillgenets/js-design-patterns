@@ -20,6 +20,7 @@ class CarBuilder {
 // ConcreteBuilder
 class LADACarBuilder extends CarBuilder {
 	constructor() {
+		super();
 		this.car = new Car();
 	}
 
@@ -51,6 +52,7 @@ class LADACarBuilder extends CarBuilder {
 // ConcreteBuilder
 class AudiCarBuilder extends CarBuilder {
 	constructor() {
+		super();
 		this.car = new Car();
 	}
 
