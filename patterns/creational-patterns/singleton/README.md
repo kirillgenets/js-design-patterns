@@ -40,4 +40,4 @@ And a lot of cons:
 - the pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times;
 - it may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects;
 
-## Our example
+## [Our example](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/creational-patterns/singleton/singleton.js)
