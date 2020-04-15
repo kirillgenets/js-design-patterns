@@ -45,3 +45,5 @@ Object adapter:
 - makes it difficult to replace methods of the **Adaptee** class. To do this you will need to create a subclass of the **Adaptee** and make the **Adapter** refer to this class, but not to the **Adaptee**;
 
 ## Our example
+
+In the file [adapter.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/adapter/adapter.js) we are implementing an adapter, that will adapt new engines for old cars.
