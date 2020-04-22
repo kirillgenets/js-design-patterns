@@ -9,11 +9,13 @@ The Bridge pattern is a design pattern used in software engineering that is mean
 You should use the Bridge pattern when:
 
 - you want to avoid permanent binding of abstraction to the implementation. So, for example, sometimes you may need to choose the implementation during the runtime;
--
+- both abstractions and implementations must be expanded by new subclasses. In this case, the **Bridge** pattern lets us combine different abstractions and implementations and change them independently;
+- changes in the implementation must not affect the client, i.e the client's code mustn't be recompiled;
+- you want split one implementation between several objects and you need to hide it from the client;
 
 ## Structure
 
-![Structure of the Adapter pattern](https://i.stack.imgur.com/1mPAh.gif)
+![Structure of the Bridge pattern]https://miro.medium.com/max/1838/1*UmKKDvmeIUGY3gbPLvYYQQ.png)
 
 ## Members
 
