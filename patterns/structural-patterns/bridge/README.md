@@ -9,6 +9,7 @@ The Bridge pattern is a design pattern used in software engineering that is mean
 You should use the Bridge pattern when:
 
 - you want to avoid permanent binding of abstraction to the implementation. So, for example, sometimes you may need to choose the implementation during the runtime;
+-
 
 ## Structure
 
