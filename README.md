@@ -15,3 +15,4 @@ Implementation of design patterns from the book "Design Patterns: Elements of Re
 - Structural patterns:
 
   - [Adapter](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/adapter);
+  - [Bridge](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/bridge);
