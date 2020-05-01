@@ -15,7 +15,7 @@ You should use the Bridge pattern when:
 
 ## Structure
 
-![Structure of the Bridge pattern]https://miro.medium.com/max/1838/1*UmKKDvmeIUGY3gbPLvYYQQ.png)
+![Structure of the Bridge pattern](https://miro.medium.com/max/1838/1*UmKKDvmeIUGY3gbPLvYYQQ.png)
 
 ## Members
 
