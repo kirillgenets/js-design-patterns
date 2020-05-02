@@ -38,3 +38,13 @@ The structure of a typical composite object looks like this:
 ## Relationship
 
 Clients use the **Component** interface for the interaction with objects inside a nested structure. If the receiver of the request is a **Leaf** object, then it processes the request. When the receiver of the request is a **Composite** object, than usually it redirects a request to its children (maybe with some operations before and after the redirect).
+
+## Results
+
+The **Composite** pattern:
+
+- defines classes hierarchies, consisting of simple and composite objects;
+- simplifies client architecture;
+- simplifies the addition of new types of components;
+
+## Our example
