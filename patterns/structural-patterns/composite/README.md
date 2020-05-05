@@ -48,3 +48,5 @@ The **Composite** pattern:
 - simplifies the addition of new types of components;
 
 ## Our example
+
+In the file [composite.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/composite/composite.js) we are implementing a composite, that we will use to get the price of the car calculated from components prices.
