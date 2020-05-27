@@ -6,7 +6,7 @@ The **Composite** pattern describes a group of objects that are treated the same
 
 ## Applicability
 
-You should use the Composite pattern when:
+You should use the **Composite** pattern when:
 
 - you need to implement a hierarchy of nested objects;
 - you want your clients to interpret compound and separate objects in the same way;

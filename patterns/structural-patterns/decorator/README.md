@@ -6,7 +6,7 @@ The **Decorator** pattern is a design pattern that allows behavior to be added t
 
 ## Applicability
 
-You should use the Decorator pattern:
+You should use the **Decorator** pattern:
 
 - for dynamic, transparent to customers additions of responsibility to objects;
 - for the implementation of duties that may be removed from the facility;
@@ -26,3 +26,21 @@ You should use the Decorator pattern:
   - keeps a link to the **Component** object and defines an interface appropriate to the **Component** interface;
 - **ConcreteDecorator**
   - adds additional responsibilities to the component;
+
+## Relationship
+
+The **Decorator** redirects requests to the **Component** object. Can also perform additional operations after redirection.
+
+## Results
+
+The **Decorator** pattern has at least 2 pros:
+
+- it has more flexibility than with static inheritance;
+- it lets us avoid overloaded with methods top levels of the hierarchy;
+
+And 2 cons:
+
+- the decorator and its component are not identic;
+- lots of small objects;
+
+## Our example
