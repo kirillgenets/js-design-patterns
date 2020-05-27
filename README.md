@@ -17,3 +17,4 @@ Implementation of design patterns from the book "Design Patterns: Elements of Re
   - [Adapter](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/adapter);
   - [Bridge](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/bridge);
   - [Composite](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/composite);
+  - [Decorator](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/decorator);
