@@ -15,3 +15,14 @@ You should use the Decorator pattern:
 ## Structure
 
 ![Structure of the Decorator pattern](https://www.jyt0532.com/public/decorator7.png)
+
+## Members
+
+- **Component**
+  - defines an interface for objects to which additional responsibilities can be added dynamically;
+- **ConcreteComponent**
+  - defines the object with additional responsibilities;
+- **Decorator**
+  - keeps a link to the **Component** object and defines an interface appropriate to the **Component** interface;
+- **ConcreteDecorator**
+  - adds additional responsibilities to the component;
