@@ -44,3 +44,5 @@ And 2 cons:
 - lots of small objects;
 
 ## Our example
+
+In the file [decorator.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/decorator/decorator.js) we are implementing a decorator, that we will use to expand laptops base characteristics.
