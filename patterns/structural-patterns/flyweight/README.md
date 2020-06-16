@@ -1,16 +1,18 @@
-# Facade
+# Flyweight
 
 ## Wikipedia definition
 
-The **Facade** pattern is a software-design pattern commonly used in object-oriented programming. Analogous to a facade in architecture, a facade is an object that serves as a front-facing interface masking more complex underlying or structural code.
+The **Flyweight** pattern is a software design pattern. A flyweight is an object that minimizes memory usage by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory. Often some parts of the object state can be shared, and it is common practice to hold them in external data structures and pass them to the objects temporarily when they are used.
 
 ## Applicability
 
-You should use the **Facade** pattern when:
+The effectiveness of the **Flyweight** pattern depends on the way it is used. You should use the **Flyweight** pattern when all the conditions below are fulfilled:
 
-- there is a need to provide a simple interface for the complex subsystem;
-- there are lots of dependencies between the clients and abstraction implementation classes;
-- there is a need to decompose the system into independent layers;
+- there are lots of objects in the system;
+- overhead storage costs are high;
+- it is possible to take out most part of the objects state;
+- it is possible to replace lots of groups of objects with a relatively small amount of splittable objects;
+- the application is not depending on the object identity;
 
 ## Structure
 
