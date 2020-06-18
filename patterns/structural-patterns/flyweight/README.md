@@ -11,38 +11,44 @@ The effectiveness of the **Flyweight** pattern depends on the way it is used. Yo
 - there are lots of objects in the system;
 - overhead storage costs are high;
 - it is possible to take out most part of the objects state;
-- it is possible to replace lots of groups of objects with a relatively small amount of splittable objects;
+- it is possible to replace lots of groups of objects with a relatively small amount of shared objects;
 - the application is not depending on the object identity;
 
 ## Structure
 
-![Structure of the Facade pattern](https://www.cs.unc.edu/~stotts/GOF/hires/Pictures/facade.gif)
+![Structure of the Flyweight  pattern](https://zhaoyan.website/xinzhi/design/html/pics/fly.png)
 
 ## Members
 
-- **Facade**
-  - "knows", to which classes the request should be addressed;
-  - delegates the clients requests to the suitable objects inside the subsystem;
-- **Subsystem classes**
-  - implement the subsystem functionality;
-  - fulfill the tasks received from the **Facade** object;
-  - "know" nothing about the **Facade** existence;
+- **Flyweight**
+  - defines an interface, with the help of which flyweights can get the external state or affect it somehow;
+- **ConcreteFlyweight**
+  - implements the interface of the **Flyweight** class and adds the internal state if it is needed. The object of this class must be shared. Any of its states must be internal, without external dependencies;
+- **UnsharedConcreteFlyweight**
+  - an unshared version of the **ConcreteFlyweight**;
+- **FlyweightFactory**
+  - creates the **Flyweight** objects and manipulates them;
+- **Client**
+  - keeps the links to the one or many flyweights;
+  - calculates or keeps the external state of the flyweights;
 
 ## Relationship
 
-Clients are communicating with the subsystem by sending requests to the **Facade**. The **Facade** redirects them to the suitable objects inside the subsystem. Sometimes it may be required for the **Facade** to convert its interface in to the subsystem interfaces.
-Clients **don't have direct access to the subsystem objects**.
+- it is possible to characterize the state, that is needed for the flyweight for correct work as internal or external. The first is kept inside the **ConcreteFlyweight**. The external state is kept or calculated by clients. The client shares the state to the flyweight when calling its methods;
+- clients should not create the **ConcreteFlyweight** instances directly, but can get the only from the **FlyweightFactory** object;
 
 ## Results
 
-The **Facade** pattern has its pros:
+When using the flyweights expenses for the transfer, searching or calculation of the external state are not excluded, especially if before it was kept as internal. But such expenses are fully compensated by the economy of the memory due to separation of the flyweights objects.
 
-- it isolates clients from the subsystem components, reducing by this the count of objects with which clients should deal with, and by this it makes the work with the system simpler;
-- it lets us reduce the connectedness between the subsystem and its clients;
+The **Flyweight** pattern has its main advantage:
 
-And one disadvantage:
+- you can save lots of RAM, assuming your program has tons of similar objects;
 
-- it can become a god object coupled to all classes of the application;
+And some disadvantages:
+
+- you might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method;
+- the code becomes much more complicated;
 
 ## Our example
 
