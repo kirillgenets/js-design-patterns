@@ -52,4 +52,4 @@ And some disadvantages:
 
 ## Our example
 
-In the file [facade.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/facade/facade.js) we are implementing a facade for the laptops conveyor.
+In the file [flyweight.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/flyweight/flyweight.js) we are implementing a flyweight factory for the cars.
