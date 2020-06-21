@@ -48,4 +48,4 @@ And is has some disadvantages:
 
 ## Our example
 
-In the file [facade.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/facade/facade.js) we are implementing a facade for the laptops conveyor.
+In the file [proxy.js](https://github.com/kirillgenets/js-design-patterns/blob/master/patterns/structural-patterns/proxy/proxy.js) we are implementing a proxy for the car access.
