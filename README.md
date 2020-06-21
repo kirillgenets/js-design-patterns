@@ -20,3 +20,4 @@ Implementation of design patterns from the book "Design Patterns: Elements of Re
   - [Decorator](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/decorator);
   - [Facade](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/facade);
   - [Flyweight](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/flyweight);
+  - [Proxy](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/structural-patterns/proxy);
