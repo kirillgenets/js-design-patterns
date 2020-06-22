@@ -25,3 +25,4 @@ Implementation of design patterns from the book "Design Patterns: Elements of Re
 - Behavioral patterns:
 
   - [Chain of Responsibility](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/behavioral-patterns/chain-of-responsibility);
+  - [Command](https://github.com/kirillgenets/js-design-patterns/tree/master/patterns/behavioral-patterns/command);
