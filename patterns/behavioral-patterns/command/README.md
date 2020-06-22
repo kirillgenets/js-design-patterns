@@ -28,7 +28,7 @@ You should use the **Command** pattern when you want to:
 - **Client**
   - creates an object of the **ConcreteCommand** class and sets its receiver;
 - **Invoker**
-  - refers to the team for the request fulfillment;
+  - refers to the command for the request fulfillment;
 - **Receiver**
   - "knows" about the ways to perform operations, required for the request fulfillment;
 
